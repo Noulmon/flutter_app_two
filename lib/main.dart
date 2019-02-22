@@ -12,9 +12,9 @@ class AppTwo extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-        title: "Flutter App Two",
+        title: "Lucky Number Generator",
         home: Scaffold( // ------> AppBar on top of the app screen
-          appBar: AppBar(title: Text("My Second App"), // AppBar title
+          appBar: AppBar(title: Text("Lucky Number"), // AppBar title
             backgroundColor: Colors.lightBlue[800],
           ),
           body: ScreenOne()
